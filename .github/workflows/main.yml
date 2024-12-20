@@ -1,0 +1,12 @@
+            - name: Package PowerShell Script as EXE
+  # You may pin to the exact commit or the version.
+  # uses: michielvha/package-pwsh-script-action@31ea257595e6c56aacf3f34fc2cb539b3f9fec5b
+  uses: michielvha/package-pwsh-script-action@v1
+  with:
+    # the name of the script, defaults to main
+    name: # default is main
+    # Path to the main PowerShell script to package
+    script-path: # default is pwsh/scripts/main.ps1
+    # Path to the GitVersion configuration file
+    config-file: # optional, default is gitversion.yml
+          
